@@ -248,13 +248,13 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+            botName: "Olá sejam todos bem vindos <3 ",
+            language: "Português",
+            chatLink: "https://rawgit.com/basicBot/source/master/lang/pt-BR.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupCap: 10, // 1-200
+            startupVolume: 50, // 0-100
             startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
@@ -294,7 +294,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "!Roulette",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
