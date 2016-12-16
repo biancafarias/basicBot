@@ -266,11 +266,11 @@
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
-            lockGuard: false,
+            lockGuard: true,
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
+            voteSkip: true,
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
@@ -294,7 +294,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: true,
             motdInterval: 5,
-            motd: "!roulette",
+            motd: "",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -331,8 +331,8 @@
             autodisableFunc: function () {
                 if (basicBot.status && basicBot.settings.autodisable) {
                     API.sendChat('!afkdisable');
-                    API.sendChat('!joindisable');
-             
+                    API.sendChat('!joindisable')
+                    API.sendChat('!roulette');
                 }
             },
             queueing: 0,
